@@ -28,7 +28,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               <span className="text-cream">Hi, I'm</span>
               <br />
-              <span className="gradient-text">Jose Armando Santana</span>
+              <span className="gradient-text">Jose Santana</span>
             </h1>
             
             <h2 className="text-2xl md:text-3xl text-light-blue mb-6 font-medium">
@@ -60,20 +60,16 @@ const Hero = () => {
             <div className="bg-gradient-to-br from-light-blue/20 to-blue-gray/20 backdrop-blur-sm rounded-3xl p-8 border border-light-blue/30">
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-dark-navy/50 rounded-2xl p-4 text-center">
-                  <div className="text-2xl font-bold text-light-blue mb-2">50+</div>
+                  <div className="text-2xl font-bold text-light-blue mb-2">5+</div>
                   <div className="text-sm text-cream">Projects</div>
                 </div>
                 <div className="bg-dark-navy/50 rounded-2xl p-4 text-center">
                   <div className="text-2xl font-bold text-light-blue mb-2">3+</div>
                   <div className="text-sm text-cream">Years</div>
                 </div>
-                <div className="bg-dark-navy/50 rounded-2xl p-4 text-center">
+                <div className="bg-dark-navy/50 rounded-2xl p-4 text-center col-span-2">
                   <div className="text-2xl font-bold text-light-blue mb-2">100%</div>
                   <div className="text-sm text-cream">Satisfaction</div>
-                </div>
-                <div className="bg-dark-navy/50 rounded-2xl p-4 text-center">
-                  <div className="text-2xl font-bold text-light-blue mb-2">24/7</div>
-                  <div className="text-sm text-cream">Support</div>
                 </div>
               </div>
             </div>

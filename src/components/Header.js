@@ -23,39 +23,37 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-dark-navy/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
     }`}>
-      <nav className="section-padding container-max-width">
+      <nav className="section-padding container-max-width" role="navigation" aria-label="Main navigation">
         <div className="flex items-center justify-between py-4">
-          <div className="text-2xl font-bold gradient-text">
-            Portfolio
-          </div>
-          <div className="hidden md:flex space-x-8">
+          <h1 className="text-2xl font-bold gradient-text">
+            Jose Santana
+          </h1>
+          <div className="hidden md:flex space-x-8" role="list">
             <button 
               onClick={() => scrollToSection('about')}
               className="text-cream hover:text-light-blue transition-colors duration-200"
+              aria-label="Scroll to About section"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('skills')}
               className="text-cream hover:text-light-blue transition-colors duration-200"
+              aria-label="Scroll to Skills section"
             >
               Skills
             </button>
             <button 
-              onClick={() => scrollToSection('experience')}
-              className="text-cream hover:text-light-blue transition-colors duration-200"
-            >
-              Experience
-            </button>
-            <button 
               onClick={() => scrollToSection('projects')}
               className="text-cream hover:text-light-blue transition-colors duration-200"
+              aria-label="Scroll to Projects section"
             >
               Projects
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
               className="text-cream hover:text-light-blue transition-colors duration-200"
+              aria-label="Scroll to Contact section"
             >
               Contact
             </button>

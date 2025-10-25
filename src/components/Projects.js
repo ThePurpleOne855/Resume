@@ -3,27 +3,27 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: "Blackjack Game",
-      description: "A Python-based Blackjack game implementation with object-oriented programming principles. Features game logic, card management, and user interaction.",
-      technologies: ["Python", "OOP", "Game Logic", "User Interface"],
+      title: "Madre Tierra Cigars Website",
+      description: "A professional business website built for Madre Tierra Cigars. Features modern design, responsive layout, and interactive user experience to showcase their premium cigar products.",
+      technologies: ["Web Development", "Responsive Design", "Business Website", "User Interface"],
       image: "/api/placeholder/600/400",
-      github: "https://github.com/ThePurpleOne855/Blackjack",
+      github: "#",
       live: "#"
     },
     {
-      title: "Calculator",
-      description: "A functional calculator application built with Python. Features basic arithmetic operations, clean interface, and robust error handling.",
-      technologies: ["Python", "GUI", "Arithmetic Operations", "Error Handling"],
+      title: "Healthcare Data Analysis",
+      description: "Comprehensive data analysis on Kaggle healthcare datasets using advanced data science techniques. Performed exploratory data analysis, statistical modeling, and visualization to extract meaningful insights.",
+      technologies: ["Data Analysis", "Python", "Pandas", "Data Visualization", "Kaggle"],
       image: "/api/placeholder/600/400",
-      github: "https://github.com/ThePurpleOne855/Calculator",
+      github: "#",
       live: "#"
     },
     {
-      title: "Todo List App",
-      description: "A task management application developed in Python. Features add, edit, delete, and mark complete functionality with persistent data storage.",
-      technologies: ["Python", "Data Persistence", "CRUD Operations", "User Interface"],
+      title: "Browser Activity Tracker Plugin",
+      description: "A browser extension plugin that monitors user browser activities to track focus and attention. Detects unrelated activities during tasks and sends alerts to help maintain productivity and ensure users stay focused on their work.",
+      technologies: ["Browser Extension", "JavaScript", "Activity Tracking", "Alerts", "Productivity"],
       image: "/api/placeholder/600/400",
-      github: "https://github.com/ThePurpleOne855/todolist",
+      github: "#",
       live: "#"
     }
   ];
@@ -125,7 +125,7 @@ const Projects = () => {
                 <div className="text-light-blue/60 text-sm">Projects</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-light-blue mb-2">50+</div>
+                <div className="text-3xl font-bold text-light-blue mb-2">5+</div>
                 <div className="text-cream font-medium">Total</div>
                 <div className="text-light-blue/60 text-sm">Projects</div>
               </div>
