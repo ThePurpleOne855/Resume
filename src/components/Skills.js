@@ -80,7 +80,7 @@ const Skills = () => {
                         <img 
                           src={skill.icon} 
                           alt={skill.name}
-                          className="w-6 h-6 object-contain"
+                          className="w-6 h-6 object-contain filter brightness-0 invert"
                           onError={(e) => {
                             e.target.style.display = 'none';
                             e.target.nextSibling.style.display = 'block';

@@ -25,9 +25,19 @@ const Header = () => {
     }`}>
       <nav className="section-padding container-max-width" role="navigation" aria-label="Main navigation">
         <div className="flex items-center justify-between py-4">
-          <h1 className="text-2xl font-bold gradient-text">
-            Jose Santana
-          </h1>
+          <div className="flex items-center space-x-3">
+            <div className="w-10 h-10 bg-gradient-to-br from-light-blue to-blue-gray rounded-xl flex items-center justify-center shadow-lg">
+              <span className="text-dark-navy font-bold text-lg">JS</span>
+            </div>
+            <div>
+              <h1 className="text-xl font-bold gradient-text leading-tight">
+                Jose Santana
+              </h1>
+              <p className="text-xs text-light-blue/70 font-medium">
+                Full Stack Developer
+              </p>
+            </div>
+          </div>
           <div className="hidden md:flex space-x-8" role="list">
             <button 
               onClick={() => scrollToSection('about')}
